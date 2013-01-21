@@ -195,7 +195,7 @@ class Term_Meta {
 	 * @param int $term_id
 	 * @return bool
 	 */
-	protected function get_term_meta_post_id( $term_id ) {
+	public function get_term_meta_post_id( $term_id ) {
 	
 		// Check if a post exists for this term
 		$query = new WP_Query( 
