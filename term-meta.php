@@ -224,7 +224,7 @@ class Term_Meta {
 	 * @param int $term_id
 	 * @return bool
 	 */
-	protected function add_term_meta_post( $term_id ) {
+	public function add_term_meta_post( $term_id ) {
 	
 		// Add the skeleton post to store meta data for this taxonomy term
 		$result = wp_insert_post( 
