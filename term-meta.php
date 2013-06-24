@@ -200,7 +200,7 @@ class Term_Meta {
 		// Check if a post exists for this term
 		$query = new WP_Query( 
 			array(
-				'name' => 'term-meta-' . $term_id,
+				'post_name' => 'term-meta-' . $term_id,
 				'post_type' => 'term-meta'
 			)
 		);
